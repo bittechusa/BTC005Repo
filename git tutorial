@@ -1,0 +1,63 @@
+
+basic linux command:
+cd——change directory
+ls—to see the list of file
+pwd—to see the path of directory
+
+
+=============git ================
+!.How to clone Repository:
+   Ans: First step: go to folder lebel where u want to store
+        second step: git clone url which provided for repository.
+ex: git clone https://github.com/bittechusa/BTC005Repo.git
+
+2.How to add project from repository to eclipse:
+    Ans:first step: in eclipse click file
+        2. click import
+        3. select Existing maven project(if maven project) or click existing project into workspace(if regular project) then click ok
+        4.click browse then go to repository lebel and select the project u want.
+        5.click ok then click finish
+        
+3.How to add project from  eclipse to repository:
+    Ans:first step: in eclipse click file
+        2. click export
+        3. select file system then click ok
+        4.click browse then go to repository lebel and select the repository.
+        5.click ok then click finish  
+        
+ 4.If you add or delete in repository or project
+ 
+   Ans: 1.open terminal or cmd
+        2.go to repository lebel
+        3.git add -A(if add all file) or git add fileNamewith path(if one file)
+        4.git commit -m "comment"
+        5.git pull origin branchName
+        6.git push origin branchName
+        
+    ===========git command=========
+1.What is Git?
+ Ans:Git is a version control system and code repository.
+
+2.How to create a branch:
+ Ans: git branch branchName
+3.How to change branch:
+ Ans: git checkout branchName
+4.create branch and switch to that branch at the same time:
+  Ans: git checkout -b branchName
+5.to make u upto date with origin:
+ Ans: git fetch origin       
+6.Push the branch on github :
+ Ans: git push origin branchName
+7.to merge code from one branch to another branch:
+ Ans:   git merge origin branchName
+8.Delete a branch on your local filesystem :
+Ans: git branch -d branchName
+9.to see the file is commit or not:
+ Ans: git status
+10.to see the log:
+ Ans: git log
+
+ 
+D
+        
+        
