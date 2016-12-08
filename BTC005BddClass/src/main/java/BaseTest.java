@@ -13,8 +13,9 @@ public class BaseTest
 		dr.get("http://www.eshopper24.com");
 		return new HomePage(dr);
 	}
-	public void end()
+	public void end() throws InterruptedException
 	{
+		Thread.sleep(3000);
 		dr.quit();
 	}
 
