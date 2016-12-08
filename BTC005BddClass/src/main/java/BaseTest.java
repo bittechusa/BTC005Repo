@@ -7,6 +7,7 @@ public class BaseTest
 	
 	public HomePage startBrowser()
 	{
+		System.out.println("habib");
 		System.setProperty("webdriver.gecko.driver", "/Users/bittech/Downloads/geckodriver");
 		dr=new FirefoxDriver();
 		
@@ -17,6 +18,7 @@ public class BaseTest
 	{
 		Thread.sleep(3000);
 		dr.quit();
+		System.out.println("habibkkkk");
 	}
 
 }
