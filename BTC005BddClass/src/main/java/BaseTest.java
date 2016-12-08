@@ -3,7 +3,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseTest 
 {
-	WebDriver dr;
+	public WebDriver dr;
 	
 	public HomePage startBrowser()
 	{
