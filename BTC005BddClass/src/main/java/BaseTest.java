@@ -7,6 +7,7 @@ public class BaseTest
 	
 	public HomePage startBrowser()
 	{
+		System.out.println("shahid");
 		System.setProperty("webdriver.gecko.driver", "/Users/bittech/Downloads/geckodriver");
 		dr=new FirefoxDriver();
 		
